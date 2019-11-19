@@ -1,14 +1,27 @@
+
 #clock {
+  position: relative;
+  margin: 20px auto 0 auto;
 }
 
 #clock img {
-}
-
-#hour {
-}
-
-#minute {
+  position: absolute;
+  top: 0px;
+  left: 285px;
 }
 
 #second {
+  z-index: 3;
+}
+
+#minute {
+  z-index: 2;
+}
+
+#hour {
+  z-index: 1;
+}
+
+#face {
+  z-index: 0;
 }
